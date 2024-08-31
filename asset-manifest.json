@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nucamp-reactsite/static/css/main.653c4296.css",
+    "main.js": "/nucamp-reactsite/static/js/main.c0a0aa01.js",
+    "static/js/453.e5b7989a.chunk.js": "/nucamp-reactsite/static/js/453.e5b7989a.chunk.js",
+    "static/media/logo.svg": "/nucamp-reactsite/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
+    "index.html": "/nucamp-reactsite/index.html",
+    "main.653c4296.css.map": "/nucamp-reactsite/static/css/main.653c4296.css.map",
+    "main.c0a0aa01.js.map": "/nucamp-reactsite/static/js/main.c0a0aa01.js.map",
+    "453.e5b7989a.chunk.js.map": "/nucamp-reactsite/static/js/453.e5b7989a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.653c4296.css",
+    "static/js/main.c0a0aa01.js"
+  ]
+}
