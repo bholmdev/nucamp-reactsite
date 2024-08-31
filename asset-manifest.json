@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nucamp-reactsite/static/css/main.acdf9450.css",
-    "main.js": "/nucamp-reactsite/static/js/main.82eeea85.js",
+    "main.css": "/nucamp-reactsite/static/css/main.97c9384e.css",
+    "main.js": "/nucamp-reactsite/static/js/main.90baafa6.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/nucamp-reactsite/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/nucamp-reactsite/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/nucamp-reactsite/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -9,6 +9,7 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/nucamp-reactsite/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/lobster-latin-400.woff": "/nucamp-reactsite/static/media/lobster-latin-400.e4473cd7170c39b44c99.woff",
     "static/media/lobster-latin-400.woff2": "/nucamp-reactsite/static/media/lobster-latin-400.484e338f970ddc242388.woff2",
+    "static/media/logo.png": "/nucamp-reactsite/static/media/logo.cfe4bd2f2af68fa3b627.png",
     "static/media/open-sans-latin-800.woff": "/nucamp-reactsite/static/media/open-sans-latin-800.8ab0bbdd48f276f4ba56.woff",
     "static/media/open-sans-latin-700.woff": "/nucamp-reactsite/static/media/open-sans-latin-700.f24f4bcef8a4a0eb6345.woff",
     "static/media/open-sans-latin-600.woff": "/nucamp-reactsite/static/media/open-sans-latin-600.7e06644bbdc83069cec8.woff",
@@ -30,11 +31,11 @@
     "static/media/open-sans-latin-600italic.woff2": "/nucamp-reactsite/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/nucamp-reactsite/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/nucamp-reactsite/index.html",
-    "main.acdf9450.css.map": "/nucamp-reactsite/static/css/main.acdf9450.css.map",
-    "main.82eeea85.js.map": "/nucamp-reactsite/static/js/main.82eeea85.js.map"
+    "main.97c9384e.css.map": "/nucamp-reactsite/static/css/main.97c9384e.css.map",
+    "main.90baafa6.js.map": "/nucamp-reactsite/static/js/main.90baafa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.acdf9450.css",
-    "static/js/main.82eeea85.js"
+    "static/css/main.97c9384e.css",
+    "static/js/main.90baafa6.js"
   ]
 }
