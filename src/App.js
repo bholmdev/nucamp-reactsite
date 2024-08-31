@@ -1,4 +1,6 @@
 import React from 'react';
+import CampsiteCard from './features/campsites/CampsiteCard';
+import { CAMPSITES } from './app/shared/CAMPSITES';
 import  { Container, Navbar, NavbarBrand }  from 'reactstrap';
 import NucampLogo from "./app/assets/img/logo.png";
 import './App.css';
@@ -13,7 +15,7 @@ function App() {
                     </NavbarBrand>
                 </Container>
             </Navbar>
-            I'm ready for worshop!
+            <CampsiteCard campsite={CAMPSITES[0]} />
         </div>
     );
 }
