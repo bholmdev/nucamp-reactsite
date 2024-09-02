@@ -1,19 +1,19 @@
 import { Col, Row } from "reactstrap";
 import CampsiteCard from "./CampsiteCard";
-import { selectAllCampsites, selectRandomCampsite } from "./campsitesSlice";
+import { selectAllCampsites } from "./campsitesSlice";
 
-const CampsitesList = () => {
+const CampsitesList = ({ setCampsiteID }) => {
     const campsites = selectAllCampsites();
-    const randomCampsite = selectRandomCampsite();
 
     return (
         <Row className="ms-auto">
             {campsites.map((campsite) => {
                 return (
                     <Col
-                    md="5"
-                    className="m-4"
-                    key={campsite.id}
+                        md="5"
+                        className="m-4"
+                        key={campsite.id}
+                        onClick={() => setCampsiteID(campsite.id)}
                     >
                         <CampsiteCard campsite={campsite} />
                     </Col>
