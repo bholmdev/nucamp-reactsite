@@ -7,7 +7,7 @@ import {
     Nav,
     NavItem
 } from "reactstrap";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import NucampLogo from "../app/assets/img/logo.png";
 
 const Header = () => {
@@ -17,8 +17,10 @@ const Header = () => {
         <Navbar dark color="primary" sticky="top" expand="md">
             <NavbarBrand className="ms-5" href="/nucamp-reactsite">
                 <img src={NucampLogo} alt="nucamp logo" className="float-start" />
-                <h1 className="mt-2">NuCamp</h1>
             </NavbarBrand>
+            <Link className="header-link" style={{ color: "white" }} to="/">
+                <h1 className="mt-2">NuCamp</h1>
+            </Link>
             
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
