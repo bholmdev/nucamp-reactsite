@@ -1,13 +1,13 @@
-import './App.css';
-import Header from './components/Header';
-import CampsitesList from './features/campsites/CampsitesList';
-import Footer from './components/Footer';
+import "./App.css";
+import Header from "./components/Header";
+import CampsitesDirectoryPage from "./pages/CampsitesDirectoryPage";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
         <div className="App">
             <Header />
-            <CampsitesList />
+            <CampsitesDirectoryPage />
             <Footer />
         </div>
     );
