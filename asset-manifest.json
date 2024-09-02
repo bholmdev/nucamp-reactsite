@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/nucamp-reactsite/static/css/main.97c9384e.css",
-    "main.js": "/nucamp-reactsite/static/js/main.8e9266c0.js",
+    "main.js": "/nucamp-reactsite/static/js/main.4c0a87df.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/nucamp-reactsite/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/nucamp-reactsite/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/nucamp-reactsite/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/mount-promise.jpg": "/nucamp-reactsite/static/media/mount-promise.0a70a38d5d4a62f33f93.jpg",
     "static/media/chrome-river.jpg": "/nucamp-reactsite/static/media/chrome-river.59bc51bda08040bae159.jpg",
     "static/media/react-lake.jpg": "/nucamp-reactsite/static/media/react-lake.05bcb300b6ee37035a7c.jpg",
+    "static/media/weeds.jpg": "/nucamp-reactsite/static/media/weeds.45be88692d6c24eed169.jpg",
     "static/media/redux-woods.jpg": "/nucamp-reactsite/static/media/redux-woods.371a075ae70280bee9e3.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/nucamp-reactsite/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/breadcrumb-trail.jpg": "/nucamp-reactsite/static/media/breadcrumb-trail.48aaedf7dfa61a00a5b1.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/nucamp-reactsite/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/boots.jpg": "/nucamp-reactsite/static/media/boots.25c0477f19c1ff094dd9.jpg",
     "static/media/lobster-latin-400.woff": "/nucamp-reactsite/static/media/lobster-latin-400.e4473cd7170c39b44c99.woff",
     "static/media/lobster-latin-400.woff2": "/nucamp-reactsite/static/media/lobster-latin-400.484e338f970ddc242388.woff2",
     "static/media/logo.png": "/nucamp-reactsite/static/media/logo.cfe4bd2f2af68fa3b627.png",
@@ -36,10 +39,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/nucamp-reactsite/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/nucamp-reactsite/index.html",
     "main.97c9384e.css.map": "/nucamp-reactsite/static/css/main.97c9384e.css.map",
-    "main.8e9266c0.js.map": "/nucamp-reactsite/static/js/main.8e9266c0.js.map"
+    "main.4c0a87df.js.map": "/nucamp-reactsite/static/js/main.4c0a87df.js.map"
   },
   "entrypoints": [
     "static/css/main.97c9384e.css",
-    "static/js/main.8e9266c0.js"
+    "static/js/main.4c0a87df.js"
   ]
 }
