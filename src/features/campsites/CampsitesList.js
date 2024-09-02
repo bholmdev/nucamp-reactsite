@@ -1,11 +1,14 @@
-import { CAMPSITES } from "../../app/shared/CAMPSITES";
 import { Col, Row } from "reactstrap";
 import CampsiteCard from "./CampsiteCard";
+import { selectAllCampsites, selectRandomCampsite } from "./campsitesSlice";
 
 const CampsitesList = () => {
+    const campsites = selectAllCampsites();
+    const randomCampsite = selectRandomCampsite();
+
     return (
         <Row className="ms-auto">
-            {CAMPSITES.map((campsite) => {
+            {campsites.map((campsite) => {
                 return (
                     <Col
                     md="5"
