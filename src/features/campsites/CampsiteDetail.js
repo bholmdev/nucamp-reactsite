@@ -1,4 +1,4 @@
-import { Card, CardImg, CardText, CardBody, Col } from "reactstrap";
+import { Card, CardTitle, CardImg, CardText, CardBody, Col } from "reactstrap";
 
 const CampsiteDetail = ({ campsite }) => {
     const { image, name, description } = campsite;
@@ -8,6 +8,7 @@ const CampsiteDetail = ({ campsite }) => {
             <Card>
                 <CardImg top src={image} alt={name} />
                 <CardBody>
+                    <CardTitle>{name}</CardTitle>
                     <CardText>{description}</CardText>
                 </CardBody>
             </Card>

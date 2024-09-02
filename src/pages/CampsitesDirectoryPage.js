@@ -3,12 +3,10 @@ import { Container, Row, Col } from "reactstrap";
 import CampsiteDetail from "../features/campsites/CampsiteDetail";
 import CampsitesList from "../features/campsites/CampsitesList";
 import { selectCampsiteByID } from "../features/campsites/campsitesSlice";
-
-// keep to change initial campsite to a random one
-// import { selectRandomCampsite } from "../features/campsites/campsitesSlice";
+import { selectRandomCampsite } from "../features/campsites/campsitesSlice";
 
 const CampsitesDirectoryPage = () => {
-    const [campsiteID, setCampsiteID] = useState(0);
+    const [campsiteID, setCampsiteID] = useState(selectRandomCampsite);
     const selectedCampsite = selectCampsiteByID(campsiteID);    
 
     return (
