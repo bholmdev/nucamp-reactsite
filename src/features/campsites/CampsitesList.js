@@ -11,7 +11,7 @@ const CampsitesList = () => {
                 return (
                     <Col
                         md="5"
-                        className="m-4"
+                        className="s-4"
                         key={campsite.id}
                     >
                         <CampsiteCard campsite={campsite} />
