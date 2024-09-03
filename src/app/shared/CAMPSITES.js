@@ -5,7 +5,7 @@ import reduxWoodsImg from '../assets/img/redux-woods.jpg';
 
 export const CAMPSITES = [
     {
-        id: 0,
+        id: 'React Lake Campground',
         name: 'React Lake Campground',
         image: reactLakeImg,
         elevation: 1233,
@@ -14,8 +14,8 @@ export const CAMPSITES = [
             'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
     },
     {
-        id: 1,
-        name: 'Chrome River Campground ',
+        id: 'Chrome River Campground',
+        name: 'Chrome River Campground',
         image: chromeRiverImg,
         elevation: 877,
         featured: false,
@@ -23,7 +23,7 @@ export const CAMPSITES = [
             'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
     },
     {
-        id: 2,
+        id: 'Breadcrumb Trail Campground',
         name: 'Breadcrumb Trail Campground',
         image: breadCrumbImg,
         elevation: 2901,
@@ -32,7 +32,7 @@ export const CAMPSITES = [
             'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
     },
     {
-        id: 3,
+        id: 'Redux Woods Campground',
         name: 'Redux Woods Campground',
         image: reduxWoodsImg,
         elevation: 42,
