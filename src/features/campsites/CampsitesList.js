@@ -10,8 +10,8 @@ const CampsitesList = () => {
             {campsites.map((campsite) => {
                 return (
                     <Col
-                        md="5"
-                        className="s-4"
+                        md="6"
+                        className="s-4 mb-4"
                         key={campsite.id}
                     >
                         <CampsiteCard campsite={campsite} />
